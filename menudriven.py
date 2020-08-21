@@ -1,15 +1,15 @@
 import os
 import pyttsx3 as p
 
+p.speak("Can I know your name please")
+name=input("Can I know your name please?: ")
+print()
 ch = 'yes'
-while ch=='yes':
+while ch == 'yes':
     print("***********************************************************************************")
     print("Greetings! Welcome to Automated Menu Driven Program to open applications from MacOS")
     print("***********************************************************************************")
-    p.speak("Can I know your name please")
-    name=input("Can I know your name please?: ")
     
-
     print()
     print("Hello! "+name+"! Let's Start!")
     p.speak("Hello!"+ name+" Welcome to Automated Menu Driven Program to open applications from Mac operating system")
@@ -93,3 +93,4 @@ while ch=='yes':
     ch=input("Do you wish to continue(yes/no): ").lower()
     if(ch!='yes'):
         break
+
