@@ -31,7 +31,7 @@ while ch=='yes':
     p.speak("Option eight iMovies")
     print("9. Open WhatsApp")
     p.speak("Option nine whatsapp")
-    print("A. Display Calendar ")
+    print("A. Display Calendar")
     p.speak("option a display calendar")
     print("B. Display today's date")
     p.speak("option b displaying date")
