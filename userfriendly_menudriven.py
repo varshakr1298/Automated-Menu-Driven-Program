@@ -11,7 +11,7 @@ p.speak("Welcome "+ name+" to the user friendly chat engine where you can open a
 
 ch = 'yes'
 while ch == 'yes':
-    words=["can","you","please","run","open","launch","listen","to","display","the","show","use","i","talk","assisstant","want","click","pictures","for","me","player","play","watch"]
+    words=["run","open","launch","listen","display","show","use","talk","assisstant","want","click","pictures","player","play","watch"]
     choice=input("Enter your choice:").lower()
     for i in words:
             if((i in choice) or ("chrome" in choice)):
