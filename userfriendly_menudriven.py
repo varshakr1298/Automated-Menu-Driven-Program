@@ -3,6 +3,8 @@ import pyttsx3 as p
 p.speak("Hello user! Please enter your name: ")
 name=input("Hello user! Please enter your name: ")
 
+#Using the concept of lists
+
 print("******************************************************************************************************************************")
 print("Welcome "+ name+" to the user friendly chat engine where you can open applications of your choice from a Mac Operating System")
 print("******************************************************************************************************************************")
